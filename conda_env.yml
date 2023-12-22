@@ -1,0 +1,15 @@
+name: env_name
+channels:
+  - defaults
+dependencies:
+  - python=3.6
+  - pytorch
+  - torchvision
+  - cudatoolkit=9.2
+  - absl-py
+  - pyparsing
+  - pip:
+    - termcolor
+    - tb-nightly
+    - imageio
+    - imageio-ffmpeg
